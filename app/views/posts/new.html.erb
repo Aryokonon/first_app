@@ -1,0 +1,5 @@
+<h1>come on, right something ya neeerd</h1>
+<%= form_with url:"/posts", method: :post, local: true do |form| %>
+ <%= form.text_field :content %>
+<%= form.submit "press this sheeeeet" %>
+<% end %>
